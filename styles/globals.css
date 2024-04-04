@@ -8,8 +8,10 @@
 
 body {
   min-inline-size: 375px;
-  max-inline-size: 1440px;
+  max-inline-size: 1024px;
   margin: 0 auto;
+  font-family: 'IBM Plex mono';
+  font-size: 18px;
 }
 
 h1,
@@ -33,10 +35,25 @@ picture {
   padding: 0;
 }
 
+a {
+text-decoration: none;
+}
+
+button {
+  border: none;
+  background-color: transparent;
+  padding: 0;
+}
+
 button,
 a {
   color: currentColor;
   font-family: inherit;
   font-size: inherit;
   line-height: inherit;
+  cursor: pointer;
+}
+
+.title__decor {
+  background-color: var(--accent-color);
 }
