@@ -1,4 +1,6 @@
-:root {
+
+
+ :root {
 --accent-color: #ff0070;
 --bg-color: #000028;
 --bg-image: url(../images/cover-image-dark.png);
@@ -8,7 +10,7 @@
 --decor-color:var(--accent-color);
 --section-title: var(--accent-color);
 --article-title: var(--bg-color);
---subtitle-color: var(--bg-color)
+--subtitle-color: var(--bg-color);
 --text-color: #F1B2CE;
 --outline-hover: rgba(255, 0, 112, 0.4);
 --outline-color: var(--accent-color);

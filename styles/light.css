@@ -1,5 +1,4 @@
 
-
 .page.theme_light {
    --bg-color: #FFF1F7; 
    --bg-image: url(../images/cover-image-light.png);
@@ -19,8 +18,37 @@
 
 .page.theme_light .header__rec {
   display: none;
+  
+}
+
+
+
+@media (prefers-color-scheme: light) {
+  :root {
+    --bg-color: #FFF1F7; 
+   --bg-image: url(../images/cover-image-light.png);
+  --title-color: #FFC2E6;
+  --title-shadow: #ff0070;
+  --accent-color: #ff8dcb;
+  --decor-color: #353430;
+  --subtitle-color: var(--decor-color);
+  --text-color: var(--decor-color);
+  --section-title: var(--decor-color);
+  --article-title:var(--decor-color);
+  --menu-text-color: var(--decor-color);
+  --outline-color: var(--decor-color);
+   --outline-hover: rgba(50, 49, 45, 0.4);
+    --focus-color: var(--decor-color);
+  }
+
+  .page.theme_auto .header__rec {
+display: none;
 
 }
+}
+
+
+
   /* сохраните этот селектор в приведённом виде.
     Так стили написанные ниже будут иметь больший вес,
     чем стили в медиазапросе предпочтений пользователя
