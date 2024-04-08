@@ -13,7 +13,7 @@
   --text-color: #F1B2CE;
   --outline-hover: rgba(255, 0, 112, 0.4);
   --outline-color: var(--accent-color);
-  --focus-color: var(--accent-color);
+  --focus-color: var(--text-color);
 }
 
 @media (prefers-color-scheme: dark) {
@@ -31,6 +31,6 @@
   --text-color: #F1B2CE;
   --outline-hover: rgba(255, 0, 112, 0.4);
   --outline-color: var(--accent-color);
-  --focus-color: var(--accent-color);
+  --focus-color: var(--text-color);
   }
 }

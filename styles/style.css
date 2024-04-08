@@ -125,7 +125,7 @@
 .content {
   display: flex;
   flex-direction: column;
-  gap: 60px;
+  gap: 80px;
   margin: 60px 0;
   padding: 0 20px;
 }
@@ -143,7 +143,7 @@
   width: 66%;
   display: flex;
   flex-direction: column;
-
+  gap: 20px;
 }
 
 .section__causes {
@@ -174,7 +174,7 @@
   width: 68%;
   display: flex;
   flex-direction: column;
-
+  gap: 20px;
 }
 
 .section__advices .section__title {
@@ -225,7 +225,6 @@
   font-weight: 700;
   line-height: 23.4px;
   color: var(--article-title);
-  margin-block-end: 19.9px;
 }
 
 .section__article-title {
@@ -239,8 +238,9 @@
   color: var(--text-color);
   font-weight: 400;
   line-height: 23.4px;
-  margin-block-end: 20px;
+  
 }
+
 
 /* Link */
 
@@ -316,6 +316,7 @@
 
   .section__causes .section__list {
     flex-direction: column;
+    gap: 20px;
   }
 
   .section__causes .section__article-item {
@@ -376,7 +377,7 @@
   .content {
     margin-block-start: 40px;
     margin-block-end: 40px;
-    gap: 30px;
+    gap: 50px;
     padding: 0 10px;
   }
 
