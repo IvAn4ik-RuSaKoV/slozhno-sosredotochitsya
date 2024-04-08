@@ -93,7 +93,7 @@
 }
 
 .header__theme-menu-button:focus-visible {
-  border-bottom: 1px solid var(--focus-color);
+  border-bottom: 1px solid var(--outline-color);
 }
 
 
@@ -238,9 +238,12 @@
   color: var(--text-color);
   font-weight: 400;
   line-height: 23.4px;
-  
 }
 
+.section__article-text:not(:last-of-type) {
+  margin-block-end: 10px;
+
+}
 
 /* Link */
 
